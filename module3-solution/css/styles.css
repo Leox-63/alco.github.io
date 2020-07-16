@@ -22,7 +22,7 @@ section{
   padding-top: 25px;
 }
 
-.navbar-brand h1 { /* Restaurant name */
+.navbar-brand h1 { 
   font-family: 'Lora', serif;
   color: #557c3e;
   font-size: 1.5em;
@@ -62,9 +62,9 @@ section{
 }
 /* END HEADER */
 
-/********** Large devices only **********/
+/********** Desktop only **********/
 @media (min-width: 1200px) {
-   .navbar-brand h1 { /* Restaurant name */
+   .navbar-brand h1 { 
     margin-top: -10px;
     
    }
@@ -77,9 +77,9 @@ section{
   
 }
 
-/********** Medium devices only **********/
+/********** Desktop only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
-  .navbar-brand h1 { /* Restaurant name */
+  .navbar-brand h1 { 
     margin-top: -10px;
     
    }
@@ -94,9 +94,9 @@ section{
   /* End Header */
 }
 
-/********** Small devices only **********/
+/********** Tablets only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-   .navbar-brand h1 { /* Restaurant name */
+   .navbar-brand h1 { 
        margin-top: -10px;
     
    }
@@ -113,23 +113,23 @@ section{
    }
 }
 
-/********** Extra small devices only **********/
+/********** Mobile only **********/
 @media (max-width: 767px) {
   /* Header */
   .navbar-brand {
     padding-top: 10px;
   }
-  .navbar-brand h1 { /* Restaurant name */
+  .navbar-brand h1 { 
     padding-top: 10px;
-    font-size: 4.3vw; /* 1vw = 1% of viewport width */
+    font-size: 4.3vw; 
   }
 
 
-  #collapsable-nav a { /* Collapsed nav menu text */
+  #collapsable-nav a { 
     font-size: 1.2em;
 	border: 0.5px solid black;
   }
-  #collapsable-nav a span { /* Collapsed nav menu glyph */
+  #collapsable-nav a span { 
     font-size: 1em;
     margin-right: 5px;
   }
